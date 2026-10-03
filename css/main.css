@@ -1,0 +1,23 @@
+/**
+ * RENT & BORROW APPLICATION - MASTER STYLESHEET
+ * 
+ * Imports Google Fonts (Inter + Plus Jakarta Sans) and modular design system stylesheets.
+ * Theme: Modern student/community marketplace
+ * Colors: Deep Indigo / Blue (Primary), Violet (Secondary), Light Neutral (Background),
+ * White (Cards), Dark Navy (Text), Gray (Secondary Text), Green/Amber/Red (Status).
+ */
+
+/* Google Fonts: Inter & Plus Jakarta Sans */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+/* Master Design Tokens */
+@import url('tokens.css');
+
+/* Base Reset & Global Typography */
+@import url('base.css');
+
+/* Component System */
+@import url('components.css');
+
+/* Layout, Marketplace Grids & Showcase */
+@import url('layout.css');
